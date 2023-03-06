@@ -1,137 +1,51 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+/*
+>= 1200
+992 -1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 414
+320 - 375
+*/
 
-@font-face {
-    font-family: opensans;
-    font-weight: normal;
-    font-style: normal;
-    src: url("../fonts/caviar-dreams.ttf");
-}
+@media screen and (max-width: 1199px){
 
-@font-face {
-    font-family: opensans;
-    font-weight: bold;
-    src: url("../fonts/impact2.ttf");
-}
+    header form div {
+        width: 238px;
+    } 
+} 
 
-.container-fluid{
-    width: 100%;
+@media screen and (max-width: 991px){
+    header > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ header > .container > img {
+        margin-right: 35px;
+    }
+    header > .container form {
+        margin-right: 20px;
+    }
+    header > .container form, header > .container .cart {
+        margin-top: 15px;
+    }
+    header form div {
+        width: 335px;
+    }
+    @media screen and (max-width: 767px){
+        header .menu {
+            margin: 15px 0;
+        }
+    }
 }
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-.d-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-body {
-    font-family: "opensans", Arial, Helvetica, sans-serif;
-    width: 100%;
-    font-size: 16px;
-}
-header > .container {
-    padding: 40px 20px;
-}
-header .container .menu a {
-    font-size: 1.200em;
-    text-decoration: none;
-    color:black;
-    margin: 0 10px;
-}
-header .container .menu a:hover, 
-header .container .menu a.active {
-    color: #f93200;
-    font-weight: bold;
-    padding-bottom: 7px;
-    border-bottom: 3px solid #f93200;
-}
-header form div {
-    justify-content: center;
-    padding: 8px 8px;
-border: 3px solid #004bf9;
-border-radius: 300px;
-}
-header form div input[type="submit"]{
-    background: url("../images/icon.png.png") no-repeat;
-    background-size: cover;
-    width: 25px;
-    height: 25px;
-    border: none;
-}
-header form div input[type="text"] {
-    border: none;
-    margin-right: 10px;
-}
-header form div input[type="submit"]:hover{
-    cursor: pointer;
-}
-
-header{
-    background-color: rgb(13, 229, 168);
-}
-
-footer{
-    background-color: rgb(169, 80, 80);
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-footer .container {
-    align-items: flex-start;
-}
-footer .left {
-    align-items: flex-start;
-}
-
-footer .left figure figcaption{
-    color: rgb(255, 255, 255);
-    font-size: 0,890em;
-    margin-top: 25px;
-    margin-left: 10px;
-}
-footer .left nav {
-    margin-left: 100px;
-}
-footer .left nav a {
-    display: block;
-    color: rgb(255, 255, 255);
-    font-size: 0,890em;
-    margin-bottom: 20px;
-    text-decoration: none;
-    margin-left: 30px;
-}
-footer .left nav a:hover, footer .left nav a.active {
-    color: rgb(255, 234, 0);
-}
-footer .right form div {
-    justify-content: left;
-    width: 458px;
-    border-bottom:1px solid #ffffff;
-}
-footer .right form input[type=text] {
-    padding: 8px 0;
-    width: 100%;
-    background: none;
-    border: none;
-}
-footer .right form input[type=submit] {
-    width: 20px;
-    height: 20px;
-    background: url(../images/icon.png.png) no-repeat;
-    background-size: cover;
-    width: 25px;
-    height: 25px;
-    border: none;
-
-}
-footer .right > div {
-    text-align: center;
-    font-size: 0,890em;
-    color: #ffffff;
-    margin-top: 33px;
-    margin-bottom: 15px;
-}
+    @media screen and (max-width: 576px) {
+        
+        header form div {
+            width: 240px;
+        }
+        header .container .menu a{
+            margin: 0 10px;
+        }
+    }
+    
