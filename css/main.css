@@ -1,0 +1,87 @@
+.block1 .menu {
+ width: 150px;
+}
+.block1 .menu a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 85, 255);
+    font-size: 1.125em;
+    margin-bottom: 10px;
+    padding: 12px 25px;
+    background: #6cf8c5;
+    border-radius: 50px;
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active{
+color: black;
+font-weight:bold;
+background-color: blueviolet;
+border-radius: 250px;
+}
+.block1 .menu .soft p{
+margin-left: 10px;
+margin-right: 20px;
+}
+.section_header .section_suptitle{
+    background: #f40303;
+    color: blanchedalmond;
+    border-radius: 100px;
+    margin-left: 50px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.section_header .section_title{
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 150px;
+    color:rgb(74, 73, 73) ;
+}
+
+.section_header .section_text{
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.sidebar .title{
+margin-left: 130px;
+}
+.tah{
+    background: #c9f8e7;
+    margin-left: 130px;
+    margin-bottom: 300px;
+}
+.text2 .ty{
+    margin-left: 150px;
+    color: rgb(74, 73, 73) ;
+    
+}
+.text2 .ti{
+    margin-left: 300px;
+}
+
+.text2 .yu{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.text3 .qw{
+    margin-left: 150px;
+    color: rgb(74, 73, 73)
+}
+.text3 .qa{
+    margin-left: 300px;
+}
+.text3 .section_text1{
+margin-left: 30px;
+}
+
+.text4 .ji{
+    margin-left: 300px;
+    color: rgb(74, 73, 73);
+}
+.text4 .po{
+    margin-left: 30px;
+    color: #f40303;
+}

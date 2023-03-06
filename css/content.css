@@ -1,0 +1,28 @@
+.node .content{
+    background: #fafafa;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.node .terms {
+    font-size: 9em;
+    margin-top: 5em;
+}
+.node .terms ul.link li{
+    padding-right: 25em;
+}
+.node .linls, .comment .link{
+    text-align: right;
+}
+.node .link a, .comment .link a{
+    background: #eee;
+    padding: 3em 5em;
+    -moz-border-radius: 4px;
+}
+div{
+    display: block;
+}
+#content{
+    width: 70%;
+    float: left;
+    line-height: 1.5em;
+}
